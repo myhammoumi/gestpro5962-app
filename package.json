@@ -6,7 +6,11 @@
   "author": "Your Name Here",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build",
+    "build:cordova": "quasar build -m cordova",
+    "dev": "quasar dev",
+    "dev:cordova": "quasar dev -m cordova"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

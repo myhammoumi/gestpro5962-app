@@ -51,6 +51,10 @@ module.exports = configure(function (ctx) {
     // Full list of options: https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js#Property%3A-build
     build: {
       vueRouterMode: 'history', // available values: 'hash', 'history'
+      
+      // Configure distDir for Cordova compatibility
+      distDir: ctx.modeName === 'cordova' ? '../www' : '../dist',
+      
       env: {
         APP_NAME: 'maketingonline.gestpro.app',
         API_URL: 'https://voip1.cliksip.com:22022/',
