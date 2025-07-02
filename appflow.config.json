@@ -1,8 +1,0 @@
-{
-  "build": {
-    "web": {
-      "build": "npm run build:cordova",
-      "outputDirectory": "www"
-    }
-  }
-} 
