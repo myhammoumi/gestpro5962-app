@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="gestpro5962.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>GestPro5962</name>
+    <description>Application de gestion GestPro5962</description>
+    <author email="contact@gestpro5962.com" href="https://gestpro5962.com">
+        GestPro5962 Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="about:*" />
+    
+    <!-- iOS Configuration -->
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="DisallowOverscroll" value="true" />
+        <preference name="BackupWebStorage" value="none" />
+        <preference name="ScrollEnabled" value="false" />
+        <preference name="EnableViewportScale" value="false" />
+        <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+        <preference name="SuppressesIncrementalRendering" value="false" />
+        <preference name="SuppressesLongPressGesture" value="false" />
+        <preference name="Suppresses3DTouchGesture" value="false" />
+        <preference name="GapBetweenPages" value="0" />
+        <preference name="PageLength" value="0" />
+        <preference name="PaginationBreakingMode" value="page" />
+        <preference name="PaginationMode" value="unpaginated" />
+    </platform>
+    
+    <!-- Android Configuration -->
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="AndroidXEnabled" value="true" />
+        <preference name="GradlePluginGoogleServicesEnabled" value="true" />
+        <preference name="GradlePluginGoogleServicesVersion" value="4.2.0" />
+    </platform>
+    
+    <!-- General Preferences -->
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="22" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+</widget> 

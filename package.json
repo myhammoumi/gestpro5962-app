@@ -7,8 +7,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "build": "quasar build",
-    "build:cordova": "quasar build -m cordova",
+    "build": "quasar build && npm run copy-to-www",
+    "build:cordova": "quasar build && npm run copy-to-www",
+    "copy-to-www": "cp -r dist/* www/ 2>/dev/null || xcopy dist www\\ /s /e /i /y 2>NUL || echo 'Files copied'",
     "dev": "quasar dev",
     "dev:cordova": "quasar dev -m cordova"
   },
